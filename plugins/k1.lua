@@ -1,7 +1,7 @@
 do 
 
 local function run(msg, matches) 
-if is_momod(msg) and matches[1]== "امر1" then 
+if is_momod(msg) and matches[1]== "م1" then 
 return [[ 
 اوامر ادارة المجموعة البوت 🏧 
 ـَـَــَـَـَــَـَـَــَـَـَــَـَـَــَـَـَــَـَـَــَـَـَــَـَـَــَـَـَــَـَـَــَـَـَــَ 
