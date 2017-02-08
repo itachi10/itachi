@@ -5,7 +5,7 @@
 do 
 
 local function run(msg, matches) 
-if is_momod(msg) and matches[1]== "امر2" then 
+if is_momod(msg) and matches[1]== "م2" then 
 return [[ 
 
 اوامر المجوعة العامة كبد عمري 🗼 
@@ -47,7 +47,7 @@ return {
 description = "Help list", 
 usage = "Help list", 
 patterns = { 
-"(امر2)" 
+"(م2)" 
 }, 
 run = run 
 } 
