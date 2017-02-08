@@ -5,7 +5,7 @@
 do 
 
 local function run(msg, matches) 
-if is_momod(msg) and matches[1]== "امر3" then 
+if is_momod(msg) and matches[1]== "م3" then 
 return [[ 
 📌┊اوامر الحماية في المجموعة 
 -----------------------------------------
@@ -61,7 +61,7 @@ return {
 description = "Help list", 
 usage = "Help list", 
 patterns = { 
-"(امر3)" 
+"(م3)" 
 }, 
 run = run 
 } 
